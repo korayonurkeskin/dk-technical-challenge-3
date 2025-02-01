@@ -6,6 +6,9 @@ file_path = 'Course Books - Audios.xlsx'
 # Read the Excel file
 sheet_df = pd.read_excel(file_path)
 
+# Drop fully empty columns (to fix: "Unnamed: 30": NaN," bug)
+sheet_df = sheet_df.dropna(axis=1, how='all')
+
 # Sort the data by 'sortOrder'
 sorted_df = sheet_df.sort_values(by='sortOrder', ascending=True)
 
@@ -18,4 +21,4 @@ output_json = sorted_df.to_dict(orient='records')
 # Save the JSON data into a file
 output_json_path = 'Course_Books_Audios_Adjusted.json'
 with open(output_json_path, 'w') as json_file:
-    json.dump(output_json, json_file, indent=4)
+    json.dump(output_json, json_file, indent=4) 
