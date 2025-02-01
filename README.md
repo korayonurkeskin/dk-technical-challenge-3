@@ -12,6 +12,7 @@ Requirements
   - Python 3.7 or higher
   - Required Library: 'pandas'
   - No need to install 'json' as it's part of Python's standard library
+  - Download the Course Book Audios Excel File : https://docs.google.com/spreadsheets/d/1eYDa2h6ZOUA0aOZL38EoXSeXD-FC5Tpr_ghcH7iY2HU/edit?usp=sharing
 
 Installation
   - Install Python: https://www.python.org/downloads/
