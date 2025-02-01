@@ -20,3 +20,5 @@ Installation
 Usage
   - Place the Excel file in the same directory as the script.
   - Ensure the Excel file path is 'Course Books - Audios.xlsx'
+  - Run the script: ```python main.py```
+  - The JSON file will be saved in the same directory as the script with the name 'Course_Books_Audios_Adjusted.json'
