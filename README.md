@@ -1,5 +1,5 @@
 # Overview
-  - This script processes the Excel file that contains metadata about course book audio files to generate a structured/updated JSON file.
+  - This script processes the 'Course Book Audios Excel File' Excel file that contains metadata about course book audio files to generate a structured/updated JSON file.
 
 # Features
   - Reads metadata from the Excel file.
