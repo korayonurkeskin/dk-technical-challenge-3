@@ -16,7 +16,7 @@ Requirements
 
 Installation
   - Install Python: https://www.python.org/downloads/
-  - Install the required library: ```pip install pandas```
+  - Install the required library: ```pip install pandas``` or https://pandas.pydata.org/docs/getting_started/install.html
   - Download the Course Book Audios Excel File: https://docs.google.com/spreadsheets/d/1eYDa2h6ZOUA0aOZL38EoXSeXD-FC5Tpr_ghcH7iY2HU/edit?usp=sharing
 
 Usage
