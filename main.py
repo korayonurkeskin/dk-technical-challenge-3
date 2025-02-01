@@ -6,11 +6,11 @@ file_path = 'Course Books - Audios.xlsx'
 # Read the Excel file
 sheet_df = pd.read_excel(file_path)
 
-# Drop fully empty columns (to fix: "Unnamed: 30": NaN," bug)
+# Drop fully empty columns (to fix -> "Unnamed: 30": NaN," edge case)
 sheet_df = sheet_df.dropna(axis=1, how='all')
 
-# Sort the data by 'sortOrder'
-sorted_df = sheet_df.sort_values(by='sortOrder', ascending=True)
+# Sort the data by 'levelColor'
+sorted_df = sheet_df.sort_values(by='levelColor', ascending=True)
 
 # Add 'url' field to each row by combining 'filepath' and 'filename'
 sorted_df['url'] = 'https://d2hmvvndovjpc2.cloudfront.net/efe' + sorted_df['filepath'].astype(str) + sorted_df['filename'].astype(str)
