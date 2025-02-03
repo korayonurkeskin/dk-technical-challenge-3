@@ -75,5 +75,5 @@ This Python script processes metadata from the Course Book Audios Excel file. It
    - Includes tests (using Python’s built-in unittest framework) to validate filtering and price updating functionality.
    - Execute:
    ```bash
-    python main.py test
+   python -m unittest test_main.py
    ```
